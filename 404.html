@@ -97,11 +97,27 @@
             .left{
                 left: 20px;
             }
+            a:hover{
+                text-decoration: none;
+                color: white;
+            }
+            a:link{
+                text-decoration: none;
+                color: white;
+            }
+            a:visited{
+                text-decoration: none;
+                color: white;
+            }
+            a:active{
+                text-decoration: none;
+                color: white;
+            }
         </style>
     </head>
     <body>
-        <img onclick="right()" class="arrows right" width="76px" height="92px" src="right.png">
-        <img onclick="left()" class="arrows left" width="76px" height="92px" src="left.png">
+        <img onclick="right()" class="arrows right" width="76px" height="92px" src="/slider3/right.png">
+        <img onclick="left()" class="arrows left" width="76px" height="92px" src="/slider3/left.png">
         
         <div class="notloaded">
             <center><img width="100%;" height="244px" id="leftimg" src=""></center>
@@ -109,10 +125,11 @@
             <p id="lefttitle"></p>
         </div>
         <div class="loaded">
-            <center><img width="100%;" height="244px" id="midlleimg" src=""></center>
-            <p id="middleep"></p>
-            <p id="middletitle"></p>
-            
+            <a" target="_parent" id="middlea">
+                <center><img width="100%;" height="244px" id="midlleimg" src=""></center>
+                <p id="middleep"></p>
+                <p id="middletitle"></p>
+            </a>
         </div>
         <div class="notloadedr">
             <center><img width="100%" height="244px" id="rightimg" src=""></center>
